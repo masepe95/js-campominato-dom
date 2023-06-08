@@ -1,0 +1,49 @@
+.grid {
+	width: 700px;
+	height: 700px;
+	border: 1px solid white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cellEasy {
+	width: calc(100% / 10);
+	height: calc(100% / 10);
+	border: 2px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+}
+
+.cellMedium {
+	width: calc(100% / 9);
+	height: calc(100% / 9);
+	border: 2px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.cellHard {
+	width: calc(100% / 7);
+	height: calc(100% / 7);
+	border: 2px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.clicked {
+	background-color: red;
+}
+main {
+	height: calc(100vh);
+}
+
+
